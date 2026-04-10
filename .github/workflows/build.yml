@@ -1,0 +1,25 @@
+name: Build Debian Package
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install dependencies
+        run: |
+          sudo apt -y update
+          sudo apt -y install devscripts equivs
+          sudo mk-build-deps --install debian/control --tool "apt -y" --remove
+      - name: Build package
+        run: |
+          tar --verbose --extract --file septentrio-rxtools-*.tar* --one-top-level
+          mv --verbose debian/ septentrio-rxtools-*/
+          (cd septentrio-rxtools-*/ && debuild)
+      - uses: actions/upload-artifact@v7
+        with:
+          name: deb
+          path: ${{ github.workspace }}/*.deb

@@ -1,0 +1,171 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: septentrio-rxtools
+Upstream-Contact: Septentrio NV/SA <support@septentrio.com>
+Source: <https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools>
+
+Files:     *
+Copyright: Septentrio NV/SA <support@septentrio.com>
+License:   Expat
+ ---------------------------------------------------------------------
+  RxTools License
+ ---------------------------------------------------------------------
+
+ By using the RxTools package and/or any part of its contents,
+ you agree to comply with the terms of this license agreement.  
+ If you do not agree, please return the Companion Disk to  
+ Septentrio NV/SA ("Septentrio"), and destroy all your copies
+ of RxTools. 
+
+ This license applies to the RxTools package, which is owned 
+ and distributed by Septentrio. The 3rd party Qt® libraries 
+ under LGPL 3 license are used in RxTools, see "LGPL3.txt" 
+ for the license agreement. Septentrio uses dynamic linking
+ for those Qt components.
+ Septentrio support can be contacted to retrieve the sources
+ of the Qt libraries.
+
+ Septentrio owns copyright, licensing, patent and other  
+ proprietary rights for the software and manuals shipped with  
+ RxTools. The software and manuals are protected by national  
+ and international copyright laws, relevant provisions of  
+ international copyright treaties, and other applicable laws.  
+ You may not reverse-engineer, de-compile, or disassemble the  
+ software. You are allowed to make two copies for backup or  
+ archival purposes. If you would like to redistribute RxTools  
+ or pieces of the Software please contact Septentrio sales team  
+ to agree on the distribution terms. This license agreement 
+ shall be included in any agreed distribution.
+
+ The USB Drivers installed by the RxTools are 
+ copyright (c) 2005-2018 Thesycon GmbH / Septentrio.
+ 
+ Some deprecated Qt packages (QtFtp and QtToolBarDialog) 
+ are repackaged by Septentrio in the qtaddonsssn library. 
+ Septentrio support can be contacted to retrieve the sources 
+ of the qtaddonsssn library.
+ 
+ Some examples of Qt were used in RxTools:
+ - FlowLayout: Copyright (C) 2016 The Qt Company Ltd.
+ - SlidingStackedWidget
+
+ Rxtools uses part of the 7-Zip program (www.7-zip.org) which 
+ is licensed under GNU LGPL.
+ 
+ Septentrio grants you a non-exclusive license to use a copy of 
+ the enclosed RxTools, i.e. a copy of each constituent application,
+ on any number of computers and only with the aim of using it with 
+ a Septentrio GNSS receiver or with any of its data derivatives.
+
+ Without the prior written consent of Septentrio, it is 
+ prohibited to:
+ (1) Distribute, rent, lease, or sub-license all or any portion 
+      of the software;
+ (2) Modify or prepare derivative products of the software (except 
+      for the software provided with source code, which can be 
+      modified and may become part of another software product - 
+      see section "Exclusions" below);
+ (3) Use the software as a basis of computer-based services or 
+      businesses;
+ (4) Publicly display visual output of the software without 
+      mentioning or referring to the copyrights linked 
+      to Septentrio. 
+
+ You agree to keep the contents of the software confidential and 
+ to protect them from unauthorized disclosure or use.
+
+ Exclusions:
+ -----------
+ Modifying, compiling and using the provided C/C++-language 
+ source files (for the "sbf2asc" conversion utility and the 
+ "GNSS Receiver Communication SDK for C++/Qt"), as well as 
+ using the resulting executables is permitted at the user's own 
+ risk. Septentrio waives any liability that may be incurred by 
+ the use of the provided sources or the products based on these 
+ sources.
+
+ Term and Termination
+ --------------------
+ This Agreement is effective until terminated. You may terminate 
+ it at any time by destroying all copies of the software and 
+ its documentation. If you do so, you should inform Septentrio 
+ in writing immediately. Septentrio reserves the right to 
+ terminate this Agreement for reasons of misuse or abuse of the 
+ software or failure to comply with any of the above terms and 
+ conditions. Upon such termination you will destroy all copies 
+ of the software and its documentation.
+
+ Limitation of Liability
+ -----------------------
+ Septentrio does not authorize the use of its products as 
+ critical components in devices or systems supporting life or 
+ whose failure may cause death or permanent injury, without 
+ express written approval.
+
+ In no event shall Septentrio be liable for any loss, expense or 
+ injury, or special, indirect or consequential damage arising 
+ directly or indirectly from the purchase, installation and use 
+ of Septentrio products or having any other cause. In no event 
+ shall Septentrio's liability exceed the net purchase price or 
+ license fee paid by the customer for the affected product, 
+ hardware or software causing the damage, loss or liability. If 
+ the pertinent jurisdiction does not allow such limitations as 
+ written, then the maximum permissible limitations shall apply.
+
+ Limited Warranty Policy
+ -----------------------
+ For 90 days from the date of sale, Septentrio guarantees that 
+ the shipped Septentrio Companion Disk on which the software is 
+ supplied will be free from defects in materials and 
+ workmanship. 
+
+ The warranty does not cover:
+  1. Defects due to accident, abuse, misuse, negligent use, use in 
+      other than the normal and recommended manner or in 
+      environmental conditions that do not conform to the 
+      specification of the Companion Disk, or failure to follow 
+      the prescribed installation and operating procedures.
+  2. Defects due to modifications, alterations, or changes not 
+      directly authorized by Septentrio.
+  3. Normal wear and tear.
+  4. Shipping damage.
+
+ The warranty is void if service or repair of the Companion Disk 
+ was performed without the prior written consent of Septentrio.
+
+ If you observe indications that the Companion Disk is faulty, 
+ please first contact Septentrio's user support. If the problem 
+ cannot be resolved with the help of Septentrio's support 
+ service, please return the Companion Disk to Septentrio in the 
+ original packaging after obtaining a Return Material 
+ Authorisation (RMA) from Septentrio. Septentrio will either 
+ replace the Companion Disk or repair it. The choice between 
+ replacement and repair is solely Septentrio's. Out-of-warranty 
+ replacement or repair will be provided for a nominal fee. 
+
+ Software Support is provided for 1 year from the date of sale. 
+ The date of sale is the date on the invoice sent by Septentrio 
+ to the original buyer and enclosed with the originally-shipped 
+ GNSS receiver. This limited warranty might be differently 
+ stated for integrated applications where the RxTools package 
+ and/or any part of its contents is not provided directly by 
+ Septentrio. In this case it is recommended to contact the 
+ Software distributor/integrator for further information.
+
+ Septentrio does not warrant the software itself or guarantee 
+ that it will be error-free. The software is furnished "as is" 
+ and without warranty as to the performance or results you may 
+ obtain by using it. You assume all the risks as to the results 
+ and performance of the software.
+
+ Any problems or questions should be referred to Septentrio's 
+ customer support:
+
+   Septentrio NV/SA
+   Greenhill Campus
+   Interleuvenlaan 15 i
+   BE-3001 Leuven
+   Belgium
+
+   Tel.:        +32 16.300.800
+   E-mail:      support@septentrio.com
+   web: http://www.septentrio.com

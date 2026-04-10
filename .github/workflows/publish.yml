@@ -1,0 +1,23 @@
+name: Upload Debian Package
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+
+  github-release:
+    needs: [build]
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v8
+        with:
+          path: ${{ github.workspace }}
+      - name: Upload artifacts to GitHub release
+        run: |
+          gh release upload "${{ github.event.release.tag_name }}" "${{ github.workspace }}"/*.deb

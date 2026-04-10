@@ -1,0 +1,24 @@
+Source: septentrio-rxtools
+Section: devel
+Priority: optional
+Maintainer: Alexis Giraudet <alexis.giraudet@nav-timing.safrangroup.com>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.3
+Homepage: https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools
+Rules-Requires-Root: no
+
+Package: septentrio-rxtools
+Architecture: amd64
+Depends:
+ ${misc:Depends},
+ libxcb-cursor0,
+Description: Septentrio GNSS receiver control and analysis software
+ Software suite to control and monitor your GNSS receiver.
+ Visualization of GNSS data in real-time or with logged data.
+ The most complete and powerful GNSS tools set on the market.
+ Advanced data logging and stream monitoring.
+ Receiver control and monitoring.
+ Connectivity via IP, USB, serial port.
+ Windows and Linux compatible.
+ SDK included for building your own applications.
