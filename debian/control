@@ -1,4 +1,4 @@
-Source: septentrio-rxtools
+Source: rxtools
 Section: devel
 Priority: optional
 Maintainer: Alexis Giraudet <alexis.giraudet@nav-timing.safrangroup.com>
@@ -8,7 +8,7 @@ Standards-Version: 4.7.3
 Homepage: https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools
 Rules-Requires-Root: no
 
-Package: septentrio-rxtools
+Package: rxtools
 Architecture: amd64
 Depends:
  ${misc:Depends},

@@ -16,9 +16,9 @@ jobs:
           sudo mk-build-deps --install debian/control --tool "apt -y" --remove
       - name: Build package
         run: |
-          tar --verbose --extract --file septentrio-rxtools-*.tar* --one-top-level
-          mv --verbose debian/ septentrio-rxtools-*/
-          (cd septentrio-rxtools-*/ && debuild)
+          tar --verbose --extract --file rxtools-*.tar* --one-top-level
+          mv --verbose debian/ rxtools-*/
+          (cd rxtools-*/ && debuild)
       - uses: actions/upload-artifact@v7
         with:
           name: deb
